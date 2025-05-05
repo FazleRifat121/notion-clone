@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en-US">
-        <body>
+        <body suppressHydrationWarning={true}>
           <Header />
 
           <div className="flex min-h-screen ">
